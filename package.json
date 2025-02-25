@@ -1,0 +1,25 @@
+{
+    "name": "social-network-api",
+    "version": "1.0.0",
+    "description": "A social network API built with TypeScript, Express.js, and MongoDB.",
+    "main": "src/app.ts",
+    "scripts": {
+      "start": "ts-node src/app.ts",
+      "build": "tsc",
+      "dev": "ts-node-dev src/app.ts",
+      "seed": "ts-node src/seed/seed.ts"
+    },
+    "dependencies": {
+      "@types/express": "^4.17.9",
+      "express": "^4.17.1",
+      "mongoose": "^5.10.9"
+    },
+    "devDependencies": {
+      "ts-node": "^10.9.2",
+      "ts-node-dev": "^1.0.0",
+      "typescript": "^5.7.3"
+    },
+    "keywords": [],
+    "author": "Pink727",
+    "license": "MIT"
+  }
